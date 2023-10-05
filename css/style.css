@@ -316,6 +316,7 @@ body{
 
 .offer-item{
     width: 30%;
+    height: 200px;
     float: left;
     border: 1px solid #a8a8a8;
     margin-bottom: 20px;
@@ -354,6 +355,7 @@ body{
     text-transform: capitalize;
     margin-bottom: 15px;
     transition: 1s;
+    width: 90%;
 }
 
 .offer-item:hover .offer-title{
@@ -364,6 +366,7 @@ body{
     text-transform: capitalize;
     margin-bottom: 15px;
     color: #999;
+    width: 90%
 }
 
 /* end offer section */
@@ -843,8 +846,9 @@ body{
     transform: translate(-50%,-50%);
 }
 
-.footer-img{
-    margin-left: 80px;
+.footer-img img{
+    display: block;
+    margin: 0px auto;
 }
 
 .footer-list{
